@@ -1,4 +1,4 @@
-# C Pong
+# Pong
 
 ![preview](https://github.com/lenardatthebreakwater/c-pong/assets/142602437/c1bb17bc-89be-4ad4-b013-28db272f6aa9)
 
@@ -17,14 +17,14 @@ You can download both via the raylib installer from https://www.raylib.com/
 * Clone this repo 
 
 ```bash
-git clone https://github.com/lenardatthebreakwater/c-pong.git
+git clone https://github.com/lenardatthebreakwater/pong.git
 ```
 
-* In the raylib installation directory, search for 'libraylib.a' and 'raylib.h.' Once found, copy and paste both files into the root directory of c-pong
+* In the raylib installation directory, search for 'libraylib.a' and 'raylib.h.' Once found, copy and paste both files into the root directory of pong
 
 * Within the same raylib installation directory, locate the 'w64devkit' folder. Ensure that you include the 'bin' path of this folder in your system's PATH
 
-* Compiling to an Executable (make sure you are within c-pong first)
+* Compiling to an Executable (make sure you are within pong first)
 
 ```bash
 gcc -Wall -Wextra -o pong pong.c -I./ -L./ -lraylib -lopengl32 -lgdi32 -lwinmm
